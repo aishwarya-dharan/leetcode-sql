@@ -1,0 +1,17 @@
+-- Problem: 003. Big Countries
+-- Link: https://leetcode.com/problems/big-countries/description/?envType=study-plan-v2&envId=top-sql-50
+-- Difficulty: Easy
+--
+-- Problem summary:
+-- Given a table `world(name, continent, area, population, gdp)`,
+-- return the names of countries with population > 25,000,000 OR area > 3,000,000.
+-- The result should be ordered by population in descending order (largest population first).
+--
+-- Notes:
+-- - This solution assumes `population` and `area` are numeric.
+-- - If population is NULL for some rows, they are treated as NULL (not excluded by this query unless explicitly filtered).
+-- - LeetCode test cases treat the schema consistently; this is the canonical simple solution.
+
+SELECT name, population, area
+FROM world
+WHERE population >= 25000000 OR area >= 3000000;
