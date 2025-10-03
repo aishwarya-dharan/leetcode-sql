@@ -1,0 +1,8 @@
+Find customers who visited but did not make any transactions: You need to identify visits that do not have any associated transactions.
+Counting such visits: After identifying these customers, you need to count how many visits of that customer had no transactions.
+
+ SELECT customer_id, COUNT(customer_id) AS count_no_trans
+    FROM Visits
+    LEFT JOIN Transactions On Transactions.visit_id = Visits.visit_id
+    WHERE transaction_id IS NULL
+    GROUP BY customer_id ORDER BY count(customer_id) DESC; 
