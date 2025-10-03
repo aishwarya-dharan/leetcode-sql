@@ -1,0 +1,12 @@
+By using left join we can fetch ids which don't have unique ids as well
+and if we try to use right join we are only fetching unique ids but still not unique id remains.
+
+SELECT unique_id, name
+FROM Employees
+LEFT JOIN EmployeeUNI
+ON Employees.id = EmployeeUNI.id;
+
+Alice and Bob do not have a unique ID, We will show null instead.
+The unique ID of Meir is 2.
+The unique ID of Winston is 3.
+The unique ID of Jonathan is 1.
