@@ -1,0 +1,11 @@
+The distinct keyword tells MySQL to find the unique occurances we are lookingfor
+This erases the duplicates
+The as keyword renames what we want kind of like in Python
+
+SELECT DISTINCT author_id AS id
+FROM
+    Views
+WHERE
+    author_id = viewer_id
+# Order by tells us what we want to sort the data by
+ORDER BY id
