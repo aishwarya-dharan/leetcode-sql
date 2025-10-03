@@ -1,0 +1,5 @@
+My query for Product Sales Analysis (LeetCode) ran in the top 1.02% of all solutions on LeetCode by runtime efficiency.
+
+SELECT product_name, year, price
+FROM Sales
+LEFT JOIN Product ON Sales.product_id = Product.product_id;
