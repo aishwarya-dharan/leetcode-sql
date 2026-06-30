@@ -1,46 +1,46 @@
 # leetcode-sql
 Welcome to my repository of **LeetCode SQL + Data Analytics** coding solutions.
 
-I’m documenting my learning journey as I transition to Data Analytics. 
+I’m documenting my learning journey as I expand my Data Analytics skillset. 
 
 **Each problem includes:**
 ​ 
- 1. Problem statement (with link)
+ 1. Problem statement (with link).
  
- 2. SQL/Python solution
+ 2. SQL/Python solution.
  
- 3. Explanation of approach
+ 3. Explanation of my approach.
  
  4. Complexity analysis (if relevant)
 
-  **Easy** - Beginner-friendly problems
+  **Easy** - Beginner-friendly problems.
   
-  **Medium** - More complex queries with joins, subqueries, aggregations
+  **Medium** - More complex queries with joins, subqueries, aggregations.
   
-  **Hard** - Advanced optimization, window functions, analytics challenges
+  **Hard** - Advanced optimization, window functions, analytics challenges.
 
 # Problem Index
 **Easy**
-1. Title Solution Explanation
-2. 1757 Recyclable and Low Fat Products SQL Simple WHERE clause filtering
+1. LeetCode Solution Explanation.
+2. 1757 Recyclable and Low Fat Products SQL Simple WHERE clause filtering.
    
 **Medium**
-1. Title Solution Explanation
-2. 183 Customers Who Never Order SQL Demonstrates LEFT JOIN + filtering
+1. LeetCode Solution Explanation.
+2. 183 Customers Who Never Order SQL Demonstrates LEFT JOIN + filtering.
    
 **Hard**
-1. Title Solution Explanation
+1. LeetCode Solution Explanation.
 
 # Tools & Tech
-1. SQL (MySQL, PostgreSQL)
-2. Python (Pandas, NumPy for analytics)
-3. Jupyter Notebooks (for hybrid data projects)
-4. Power BI / Tableau (for visualization projects)
+1. SQL (MySQL, PostgreSQL).
+2. Python (Pandas, NumPy for analytics).
+3. Jupyter Notebooks (for hybrid data projects).
+4. Power BI / Tableau (for visualization projects).
 
 # Goals of This Repo
-1. Build a solid foundation in SQL & analytics problem-solving
-2. Showcase real-world data projects & dashboards
-3. Transition into Data Analytics → Analytics Engineering career path
+1. Build a solid foundation in Advanced SQL & analytics problem-solving.
+2. Showcase real-world data projects & dashboards.
+3. Transition into Data Analytics → Analytics Engineering career path.
 
 # How to Use This Repo
 # Clone it:
@@ -49,12 +49,12 @@ I’m documenting my learning journey as I transition to Data Analytics.
 3. Run the .sql file in MySQL/PostgreSQL to test.
 
 # Next Steps
-1. Add 20+ SQL problems (Easy → Hard)
-2. Document approaches clearly
-3. Expand repo with Python data analysis challenges
-4. Add Power BI/Tableau dashboards from real datasets
+1. Add 20+ SQL problems (Easy to Hard)
+2. Document approaches clearly in writing.
+3. Expand repo with Python data analysis challenges preferably from LeetCode.
+4. Add Power BI/Tableau dashboards from real datasets.
 
 This repo will evolve into my Data Analytics portfolio, combining:
-1. LeetCode SQL problems
-2. Data cleaning/analysis in Python
-3. Interactive dashboards
+1. LeetCode SQL problems.
+2. Data cleaning/analysis in Python.
+3. Interactive dashboards.
